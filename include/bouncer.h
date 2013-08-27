@@ -27,6 +27,7 @@
 #include <usual/statlist.h>
 #include <usual/string.h>
 #include <usual/logging.h>
+#include <usual/blacklisting.h>
 #include <usual/aatree.h>
 #include <usual/hashing/lookup3.h>
 #include <usual/slab.h>
@@ -407,6 +408,8 @@ extern int cf_tcp_defer_accept;
 extern int cf_log_connections;
 extern int cf_log_disconnections;
 extern int cf_log_pooler_errors;
+
+extern int cf_blacklist;
 
 extern usec_t g_suspend_start;
 

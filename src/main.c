@@ -182,6 +182,7 @@ CF_ABS("min_pool_size", CF_INT, cf_min_pool_size, 0, "0"),
 CF_ABS("reserve_pool_size", CF_INT, cf_res_pool_size, 0, "0"),
 CF_ABS("reserve_pool_timeout", CF_TIME_USEC, cf_res_pool_timeout, 0, "5"),
 CF_ABS("syslog", CF_INT, cf_syslog, 0, "0"),
+CF_ABS("blacklist", CF_INT, cf_blacklist, 0, "0"),
 CF_ABS("syslog_facility", CF_STR, cf_syslog_facility, 0, "daemon"),
 CF_ABS("syslog_ident", CF_STR, cf_syslog_ident, 0, "pgbouncer"),
 #ifndef WIN32
